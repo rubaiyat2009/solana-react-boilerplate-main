@@ -65,8 +65,8 @@ export default defineConfig(async () => {
         minify: true,
         inject: {
           data: {
-            title: 'Epics dApp boilerplate',
-            domain: 'dapp-boilerplate.epics.dev',
+            title: 'React dApp boilerplate',
+            domain: 'solana-react-dapp.vercel.app',
             themeColor: '#ffffff',
             safariColor: '#39a845',
             twitterAccount: '@EpicsDAO',
