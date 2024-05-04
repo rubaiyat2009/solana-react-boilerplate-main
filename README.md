@@ -44,7 +44,7 @@ yarn add --dev jest
 yarn jest
 # Sample test result:
 
-Test Suites: 1 failed, 1 total
+Test Suites: 1 success, 1 total
 Tests:       0 total
 Snapshots:   0 total
 Time:        1.885 s
