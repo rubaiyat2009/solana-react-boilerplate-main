@@ -1,4 +1,8 @@
 # Solana React boilerplate
+This is a boilerplate project for building decentralized applications (dApps) on the Solana blockchain using React.
+
+# Overview
+The project provides a starting point for developers looking to build dApps on Solana with React. It includes basic setup for connecting to the Solana blockchain, interacting with smart contracts, and building user interfaces with React components.
 
 ## Aiming to
 
@@ -25,6 +29,19 @@
 
 Set a static version for each packages to reduce fails to run.
 
+# Getting Started
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+  git clone https://github.com/rubaiyat2009/solana-react-boilerplate-main.git
+2. Navigate to the project directory:
+ cd solana-react-boilerplate-main
+3. Install dependencies:
+ npm install
+   
+
+ 
+
 ## Quickstart
 
 ```bash
@@ -40,8 +57,12 @@ npm install --save-dev jest
 # or
 yarn add --dev jest
 
-# To run test
+# Testing
+To run unit tests for the application, use the following command:
 yarn jest
+
+This will execute all unit tests and provide feedback on their success or failure.
+
 # Sample test result:
 
 Test Suites: 1 success, 1 total
@@ -54,10 +75,84 @@ Ran all test suites.
 # Run dev server (localhost:4200)
 $ yarn dev
 
+# This will start the development server and display the application url to browser. Any changes you make to the code will automatically be reflected in the browser.
+
+
 
 Vercel here: https://solana-react-dapp.vercel.app/
 
-#Please use Microsoft Edge browser for better user expericence!
+# Please use Microsoft Edge browser for better user expericence!
+
+## Connecting to the Smart Contract
+To connect the frontend to a smart contract on the Solana blockchain, you'll need to:
+
+1. Deploy your smart contract to the Solana blockchain.
+2. Obtain the address of the deployed smart contract.
+3. Update the WalletBalance.js file to use the address of your smart contract.
+
+// Update this line with the address of your smart contract
+const token = new Token(connection, new PublicKey('TOKEN_MINT_ADDRESS'));
+
+Replace 'TOKEN_MINT_ADDRESS' with the address of your deployed smart contract.
+
+
+Sure, here's a basic README.md file for your project:
+
+Solana React Boilerplate
+This is a boilerplate project for building decentralized applications (dApps) on the Solana blockchain using React.
+
+Overview
+The project provides a starting point for developers looking to build dApps on Solana with React. It includes basic setup for connecting to the Solana blockchain, interacting with smart contracts, and building user interfaces with React components.
+
+Getting Started
+To get started with the project, follow these steps:
+
+Clone the repository:
+
+bash
+git clone https://github.com/rubaiyat2009/solana-react-boilerplate-main.git
+
+Navigate to the project directory:
+
+bash
+cd solana-react-boilerplate-main
+
+Install dependencies:
+
+bash
+npm install
+
+## Running the Application
+To run the application locally, use the following command:
+
+bash
+npm start
+
+This will start the development server and open the application in your default web browser. Any changes you make to the code will automatically be reflected in the browser.
+
+Testing
+To run unit tests for the application, use the following command:
+
+bash
+npm test
+This will execute all unit tests and provide feedback on their success or failure.
+
+Connecting to the Smart Contract
+To connect the frontend to a smart contract on the Solana blockchain, you'll need to:
+
+Deploy your smart contract to the Solana blockchain.
+Obtain the address of the deployed smart contract.
+Update the WalletBalance.js file to use the address of your smart contract.
+
+// Update this line with the address of your smart contract
+const token = new Token(connection, new PublicKey('TOKEN_MINT_ADDRESS'));
+Replace 'TOKEN_MINT_ADDRESS' with the address of your deployed smart contract.
+
+## Contributing
+Contributions to the project are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
 
