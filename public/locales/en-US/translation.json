@@ -23,5 +23,5 @@
   "sendingSol": "Sending amount (SOL)",
   "executeTransaction": "Execute the transaction",
   "update": "Update",
-  "tryLater": "Something went wrong. Please try it later."
+  "tryLater": "Internal check. Please stay active."
 }

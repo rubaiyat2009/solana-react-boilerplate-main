@@ -11,11 +11,11 @@ const TokenMintForm = () => {
     setStatus('Processing...');
 
     try {
-      const TOKEN_PROGRAM_ID = new PublicKey('11111111111111111111111111111111'); // Replace with actual token program ID
-      const mintPublicKey = new PublicKey('22222222222222222222222222222222'); // Replace with actual mint public key
+      const TOKEN_PROGRAM_ID = new PublicKey(import.meta.env.TOKEN_PROGRAM_ID); // Replace with actual token program ID
+      const mintPublicKey = new PublicKey(import.meta.env.MINT_PUBLIC_KEY); // Replace with actual mint public key
       const recipientPublicKey = new PublicKey(recipientAddress);
-      const mintAuthority = new PublicKey('33333333333333333333333333333333'); // Replace with actual mint authority public key
-      const amount = 100; // Sample amount of tokens to mint
+      const mintAuthority = new PublicKey(import.meta.env.MINT_AUTHORITY); // Replace with actual mint authority public key
+      const amount = import.meta.env.TOKEN_AMOUNT; // Sample amount of tokens to mint
 
       const connection = new Connection('https://api.devnet.solana.com');
       const walletKeyPair = new Uint8Array([/* Insert wallet private key bytes here */]);

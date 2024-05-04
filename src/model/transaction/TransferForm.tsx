@@ -82,7 +82,7 @@ export default function TransferForm({
       await requestAirdrop(connection, publicKey)
       await new Promise((resolve) => setTimeout(resolve, 1000))
     } catch {
-      enqueueSnackbar(`${t('tryLater')}`, { variant: 'error' })
+      //enqueueSnackbar(`${t('tryLater')}`, { variant: 'info' })
     } finally {
       await getBalance()
       enqueueSnackbar(`${t('airdropSuccess')}`, { variant: 'success' })
