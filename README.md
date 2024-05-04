@@ -35,6 +35,22 @@ v16.15.1
 # Install dependencies
 $ yarn install --frozen-lockfile
 
+# For Unit test, you can install it via npm or yarn
+npm install --save-dev jest
+# or
+yarn add --dev jest
+
+# To run test
+yarn jest
+# Sample test result:
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.885 s
+Ran all test suites.
+
+
 # Run dev server (localhost:4200)
 $ yarn dev
 ```
