@@ -53,7 +53,14 @@ Ran all test suites.
 
 # Run dev server (localhost:4200)
 $ yarn dev
+
+
+Vercel here: https://solana-react-dapp.vercel.app/
+
+#Please use Microsoft Edge browser for better user expericence!
 ```
+
+
 
 ### References
 
