@@ -1,5 +1,5 @@
 {
-  "pleaseConnect": "Solana ウォレットを接続してください 👛",
+  "pleaseConnect": "Solana ウォレットを接続してください",
   "transactions": "トランザクション",
   "wallet": "ウォレット",
   "noTransaction": "このウォレットにはトランザクションがありません",
@@ -11,8 +11,8 @@
   "fee": "手数料",
   "balance": "残高",
   "getBalanceError": "残高取得に失敗しました。再度お試しください",
-  "airdropSuccess": "1 SOL 獲得しました 💰",
-  "sendTokenSuccess": "送金成功しました 🎉",
+  "airdropSuccess": "1 SOL 獲得しました",
+  "sendTokenSuccess": "送金成功しました",
   "sendTokenError": "送金に失敗しました",
   "sendTokenRejected": "送金がキャンセルされました",
   "tooLongMessage": "入力が長すぎます。{{length}}文字までにしてください",

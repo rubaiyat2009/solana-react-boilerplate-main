@@ -1,5 +1,5 @@
 {
-  "pleaseConnect": "Please connect your Solana wallet 👛",
+  "pleaseConnect": "Please connect your Solana wallet",
   "transactions": "Transactions",
   "wallet": "Wallet",
   "noTransaction": "There is no transaction in your wallet",
@@ -11,8 +11,8 @@
   "fee": "Fee",
   "balance": "Balance",
   "getBalanceError": "Failed to fetch balance. Please try it later",
-  "airdropSuccess": "You've got 1 SOL 💰",
-  "sendTokenSuccess": "Transaction succeeded 🎉",
+  "airdropSuccess": "You've got 1 SOL",
+  "sendTokenSuccess": "Transaction succeeded",
   "sendTokenError": "Failed to transfer",
   "sendTokenRejected": "Transaction rejected",
   "tooLongMessage": "Should be at most {{length}} characters long",
